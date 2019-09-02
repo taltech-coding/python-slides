@@ -18,7 +18,7 @@ i_like_to_wake_up_early = False
 
 ## võrdlus
 
-- Võrdlus annab tulemused loogika väärtuse
+- Võrdlus annab tulemuseks loogilise väärtuse
 
 ```python
 some_number = 111111
@@ -62,3 +62,6 @@ print( (is_monday or is_warm) and is_sunny)  # False
 
 @[1-4](``and`` on prioriteetsem kui ``or``)
 @[1-4,5](Siin sulgudes olev avaldis arvutatakse enne, seejärel toimub ``and``)
+
+---
+
