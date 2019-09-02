@@ -86,8 +86,8 @@ print(f"Sum: {1 + 2 + 3}")
 
 @[1-2](Tulemus on "Hi Ago!")
 @[4-5](Tulemus on "Price with tax is 24.0")
-@[6](Tulemus on "Sum: {1 + 2 + 3}". Miks?)
-@[7](Tulemus on "Sum: 6")
+@[7](Tulemus on "Sum: {1 + 2 + 3}". Miks?)
+@[8](Tulemus on "Sum: 6")
 
 ---
 
