@@ -83,3 +83,6 @@ print(f"Hello {name}!")
 
 - https://docs.python.org/3/ Pythoni ametlik dokumentatsioon
 - https://ained.ttu.ee/pydoc/ Kursuse "ametlik" materjal
+
+---
+
