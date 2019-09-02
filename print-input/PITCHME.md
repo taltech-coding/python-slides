@@ -29,7 +29,7 @@ to school!""")
 ```
 
 @[1](Tulemus prinditakse ühele reale, lõppu lisatakse reavahetus)
-@[3-4](Iga print() trükib tulemuse eraldi reale)
+@[3-4](Iga print\(\) trükib tulemuse eraldi reale)
 @[6-7](Kolmekohalise jutumärgiga saab kirjutada mitmerealist teksti, tulemus on ka mitmel real)
 
 ---
