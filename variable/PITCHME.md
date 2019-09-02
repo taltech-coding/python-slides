@@ -146,3 +146,5 @@ redis_15 = redis_13 + 2
 ## Viited
 
 - https://ained.ttu.ee/pydoc/variable.html
+
+---
