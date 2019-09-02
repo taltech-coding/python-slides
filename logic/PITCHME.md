@@ -58,8 +58,7 @@ is_sunny = False
 is_warm = True
 print(is_monday or is_warm and is_sunny)   # True
 print( (is_monday or is_warm) and is_sunny)  # False
+```
 
 @[1-4](``and`` on prioriteetsem kui ``or``)
 @[1-4,5](Siin sulgudes olev avaldis arvutatakse enne, seejärel toimub ``and``)
-
-```
