@@ -29,7 +29,7 @@ to school!""")
 ```
 
 @[1](Tulemus prinditakse ühele reale, lõppu lisatakse reavahetus)
-@[3-4](Iga print\(\) trükib tulemuse eraldi reale)
+@[3-4](Iga print trükib tulemuse eraldi reale)
 @[6-7](Kolmekohalise jutumärgiga saab kirjutada mitmerealist teksti, tulemus on ka mitmel real)
 
 ---
@@ -48,7 +48,7 @@ print("Ago!")
 ```
 @[1-2](``end`` argumendiga saab määrata, milline on sõne lõpp. Kui seda ei määra, siis vaikimisi on lõpus reavahetus nagu eelmisel slaidil)
 @[4-5](Kuna eelmise prindi tulemus läks ühele reale, aga tekstide vahel polnud tühikut,siis lisame siin eraldi tühiku esimese teksti lõppu)
-@[6-7](Võime sama tulemuse (tühikuga tekst) saavutada määrates teksti lõppu tühiku)
+@[6-7](Võime sama tulemuse [tühikuga tekst] saavutada määrates teksti lõppu tühiku)
 
 ---
 
@@ -63,7 +63,7 @@ print("My age is " + str(18))
 @[1](Komaga eraldades on võimalik mitu väärtust kuvada)
 @[2](Argumendid ei pea olema sõned)
 @[3](Argumentide tüübid ei ole olulised)
-@[3-4](Võrdluseks arvu printimine sõnena - peame arvu (18) muutma sõneks)
+@[3-4](Võrdluseks arvu printimine sõnena - peame arvu [18] muutma sõneks)
 
 ---
 
