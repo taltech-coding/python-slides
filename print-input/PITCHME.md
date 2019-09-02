@@ -113,3 +113,5 @@ print(f"Hi {name}!")
 ## Viited
 
 - https://ained.ttu.ee/pydoc/input.html
+
+---
