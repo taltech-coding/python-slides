@@ -36,7 +36,7 @@ greeting += " students!"            # same as greeting = greeting + " .. "
 print(greeting)
 ```
 
-@[1](Loome muutuja ``greeting`` ja anname sellele tekstilise väärtuse (sõne))
+@[1](Loome muutuja ``greeting`` ja anname sellele tekstilise väärtuse [sõne])
 @[2](Loome muutuja ``student_count`` ja anname sellele täisarvulise väärtuse)
 @[4](Prindime tervituse)
 @[5](Prindime tudengite arvu)
@@ -52,19 +52,23 @@ print(greeting)
 
 ## Muutuja nimetamine
 
+@ul
 - Pythonis kasutame väikeseid tähti
 - Mitmesõnalised muutujad eraldatakse allkriipsuga (_)
 - Pigem kasutada mõtestatud nimetusi (``age``), mitte lühendeid/suvalisi tähistusi (``a``).
 - @color[green](Head näited): `temperature`, `student_count`
 - @color[red](Halvad näited): `a`, `temp`, `VAL`, `SomeValue` jne.
+@ulend
 
 ---
 
 ## Muutuja Pythonis
 
+@ul
 - Pythonis on iga "asi" objekt, st iga väärtus on objekt
 - Muutuja on nimi, mis viitab mingile objektile
 - Objektidest räägime aga hiljem (u 11. nädal)
+@ulend
 
 ---
 
@@ -81,7 +85,7 @@ picture_height, picture_width = picture_width, picture_height
 ```
 
 @[1-2](Määrame uue väärtuse, kasutades vana väärtust. Mis on uus väärtus?)
-@[3](Pyhonis saab määraata mitmele muutujale väärtuse kooraga)
+@[3](Pyhonis saab määrata mitmele muutujale väärtuse korraga)
 @[4-5](Arvutame pildi + raami suurused. Muutujad asendatakse väärtustega arvutamise hetkeks)
 @[6](Siin vahetatakse muutujate väärtused)
 
@@ -107,6 +111,35 @@ print(type(meaningful_variable))  # <class 'float'>
 @[1-3](Muutujale omistatakse täisarv, tüüp on klass ``int``)
 @[5-7](Samale muutujale omistame sõne ehk teksti, tüüp on klass ``str``)
 @[9-11](Muutujale omistatakse jagatise tulemus, mis on ujukomaarv, tüüp on klass ``float``)
+
+---
+
+## Väärtusel on andmetüüp
+
+```python
+string_value = "redis"
+int_value = 13
+
+redis_13 = string_value + int_value  # ERROR!
+redis_13_str = string_value + str(int_value)
+redis_15 = redis_13 + 2
+
+``` 
+@[1-2](Loome ühe sõne ja ühe täisarvu)
+@[4](Sõne ja arvu ei saa kokku liita)
+@[5](Saame vajaliku tulemuse, kui "muudame" ``int_value`` sõneks, seejärel liidetakse kaks sõne)
+@[6](Arve saab kokku liita. ``redis_13`` asendatakse arvutamise hetkeks vastava väärtusega)
+
+---
+
+## Muutuja
+
+@ul
+- Muutuja on nimetus, "pesa", kuhu pannakse mingi väärtus.
+- Muutuja abil saab väärtust lugeda ja (üldiselt ka) muuta.
+- Muutujal (ehk nimel) ei ole andmetüüpi. Samasse muutujasse saab alguses kirjutada arvu, seejärel sõne.
+- Väärtus (millele muutuja viitab) on andmetüüp.
+@ulend
 
 ---
 
