@@ -38,7 +38,7 @@ between = 123 < some_number < 222222      # True
 print(True and True)  # True
 print(True and False)  # False
 print(False and True)  # False
-print(False and False)  # True
+print(False and False)  # False
 
 print(True or True)  # True
 print(True or False)  # True
