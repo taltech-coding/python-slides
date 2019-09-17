@@ -104,3 +104,25 @@ https://git-scm.com/
 
 ---
 
+## Server vs kohalik
+
+@ul
+- Serveris ja kohalikus arvutis on failist sama versioon 10.
+- Kui keegi lisab serverisse failist uue versiooni 11
+- Kohalikus arvutis on versioon 10, peale uuendamist tekib versioon 11
+- Kohalik versioon 11 ja serveri versioon 11 aga ei ühildu - tekib konflikt
+- Konflikte on võimalik lahendada
+@ulend
+
+---
+
+## Võimalikud konfliktid
+
+@ul
+- Kindlam: alati enne arendamist tee `git pull`
+- Kui tekib konflikt, võib vaja olla käsitsi lahendamist (nii sinu kui serveri muudatused pannakse kokku ühte faili)
+- Teine võimalus: teha `git clone` mõnda teise kausta ja kopeerida uued failid/muudatused uuesti
+- Konfliktide lahendamist siin aines väga ei käsitleta
+@ulend
+
+---
