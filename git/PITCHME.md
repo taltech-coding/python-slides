@@ -31,7 +31,7 @@
 
 @ul
 - `git init` -  loob kohaliku salve (_repository_)
-- `git add <file>` - seab valmis faili
+- `git add <file>` - seab faili valmis
 - `git status` - näitab, mis failid on valmis seatud (muutused)
 - `git commit` - kehtestab ettevalmistatud muudatused (failid)
 - `git push` - saadab kehtestused välisesse serverisse
@@ -63,11 +63,11 @@ https://git-scm.com/
 ## Faili lisamine serverisse
 
 @ul
-- Kui fail on projekti kaustas, ei ole see automaatselt Giti jälgimise all
-- `git add <file>` lisab faili jälgimisse / valmistab faili ette
+- Failid projekti kaustas ei ole automaatselt Giti jälgimise all
+- `git add <file>` valmistab faili ette
 - Sedasi võib mitu faili lisada
-- `git commit` salvestab kohalikku salve lisatud failide muudatused (hetketõmmis)
-- Kehtestuse ajal on vaja lisada ka kommentaar `git commit -m "comment"`
+- `git commit -m "comment"` salvestab kohalikku salve lisatud failide muudatused (hetketõmmis)
+- Kehtestuse ajal lisatakse kommentaar
 - `git push` lisab kõik kohalikud muudatused serverisse
 @ulend
 
