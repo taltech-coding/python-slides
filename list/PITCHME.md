@@ -157,7 +157,7 @@ t = (1, )   # NB! not t = (1)
 t = (1, 2, 3, 4)
 
 print(t[0])    # 1
-print(t[0:2])  # (1, 2), slice returns a new list
+print(t[0:2])  # (1, 2), slice returns a new tuple
 ```
 ---
 
