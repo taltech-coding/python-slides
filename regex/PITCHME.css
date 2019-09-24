@@ -1,0 +1,30 @@
+.reveal ul.many-items li {
+   font-size: 0.8em;
+}
+
+.pat {
+    font-weight: bold;
+    background-color: #CCCCCC;
+}
+
+.match {
+    color: #00AA00;
+}
+
+.match-u {
+    color: #00AA00;
+    text-decoration: underline;
+}
+
+.nomatch {
+    color: #FF0000;
+}
+
+.nomatch-u {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.u {
+    text-decoration: underline;
+}
