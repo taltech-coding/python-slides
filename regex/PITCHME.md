@@ -25,7 +25,7 @@ print(match is None)  # no match
 ```
 
 @[3](Otsitakse mustrit "abc" tekstist "aabca")
-@[3-4](`re.search\(\)` tagastab `Match` objekti, kus on täiendav info sees.)
+@[3-4](`re.search` tagastab `Match` objekti, kus on täiendav info sees.)
 @[5-6](Kui mustrit ei leita tekstist, tagastatakse `None`.)
 ---
 
