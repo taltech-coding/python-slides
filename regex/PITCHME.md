@@ -40,8 +40,8 @@ print(match is None)  # no match
 - Mustrile vastavat alamsõne tekstist nimetatakse vasteks
 - Mustrit saab kasutada:
 
- - et kontrollida, kas mingi sõne vastab reeglitele / mustrile (kas email on korrektne)
- - leida üles mingile mustrile vastav sõne (näiteks kõik emailid)
+  - et kontrollida, kas mingi sõne vastab reeglitele / mustrile (kas email on korrektne)
+  - leida üles mingile mustrile vastav sõne (näiteks kõik emailid)
 
 @ulend
 
