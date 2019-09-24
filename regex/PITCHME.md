@@ -634,7 +634,7 @@ for email in re.finditer(r"[\w.-]+@[\w.-]+", text):
 ```
 
 @[1-6](`emails` on järjend kõikidest vastetest)
-@[1-9](`finditer` tagastab iteraatori (elemente tagastatakse jooksvalt vastavalt vajadusele))
+@[1-9](`finditer` tagastab iteraatori, elemente tagastatakse vastavalt vajadusele)
 
 ---
 
