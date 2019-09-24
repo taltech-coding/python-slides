@@ -34,7 +34,7 @@ print(match is None)  # no match
 @ul[many-items]
 
 - Muster koosneb metamärkidest (erilise tähendusega sümbolid) ja tavalistest sümbolitest (otsese tähendusega)
-- Muster võib koosnevad teistest (alam)mustritest
+- Muster võib koosneda teistest (alam)mustritest
  - Kui `A` ja `B` on mustrid, siis ka `AB`, `BA`, `AAB`, `ABB` jne on mustrid
 - Alammustreid tavaliselt eraldatakse sulgudega: `A((B)C)`
 - Mustrile vastavat alamsõne tekstist nimetatakse vasteks
@@ -50,7 +50,7 @@ print(match is None)  # no match
 ## Muster kui alamsõne
 
 - Muster võib olla alamsõne, millele otsitakse täpset vastet tekstist
-- Üldiselt sellisel juhul mõistlikum kasutada `sub in text` (kiirem)
+- Üldiselt on sellisel juhul mõistlikum kasutada `sub in text` (kiirem)
 
 Näide: `"`@css[u](`abc`)`"`
 
@@ -288,9 +288,7 @@ Mittesisalduv tekst: @css[nomatch](`"`)@css[nomatch-u](`b`)@css[nomatch](`cd"`)
 
 - Võimaldab grupeerida pikema alammustri
 
-@css[pat](parenthesis test (&#41;)
-
-Muster: @css[pat](`(...&#41;`)
+Muster: `(...)`
 
 Näide: `"`@css[u](`(ab`&#41;`?cd`)`"`
 
@@ -543,7 +541,6 @@ print("match" if re.search("\\", text) else "no match")
 ## _raw string_
 
 ```python
-
 import re
 
 print("match" if re.search("(.)\1", "aa") else "no match")
@@ -565,14 +562,14 @@ import re
 match = re.search("xk(ab)?(cd)", "xkcde")
 print(match.group())
 print(match.group(0))
-print(match.group(1))
-print(match.group(2))
+print(match.group(1))  # None. why? for "(ab)"? 
+print(match.group(2))  # for "(cd)"
 ```
 
-@[1-4](Tagastab kogu vaste (sama mis küsida grupp 0-i). Kuvab `xkcd`)
+@[1-4](Tagastab kogu vaste - sama mis küsida grupp 0-i. Kuvab `xkcd`)
 @[1-5](Grupp 0 tagastab kogu vaste. Kuvab `xkcd`)
-@[1-6](Grupp 1 tagastab vaste esimese sulgudepaari kohta. Antud mustris `(ab)?`. Tagastab `None`. Miks?)
-@[1-7](Tagastab vaste `(cd)` kohta, ehk `cd`)
+@[1-6](Grupp 1 tagastab vaste esimese sulgudepaari kohta. Tagastab `None`. Miks?)
+@[1-7](Tagastab vaste teise sulgudepaari kohta, ehk `cd`)
 
 ---
 
@@ -581,21 +578,21 @@ print(match.group(2))
 ```python
 import re
 
-match = re.search("(?:ab)?(cd)e", "acde")
+match = re.search("(?:ab)?(cd)e", "acde")  # (?:...) 
 print(match.group())
-print(match.groups())
+print(match.groups())  #  ('cd')
 
 match = re.search("(ab)?(cd)e", "acde")
-print(match.group())
-print(match.groups())
+print(match.group())  # cde
+print(match.groups())  # (None, 'cd')
 ```
 
 @[1-4](Tagastab `cd`. Miks mitte midagi esimeste sulgude kohta?)
-@[1-4](`(?:...)` tähistab vastet mittetagastava gruppi.)
-@[1-4](Kõik grupid, mis algavad `(?`, ei tagasta vastet)
-@[1-5](Tagastab enniku kõikidest vastetest. Antud juhul `('cd',)`)
-@[1-8](Tagastab kogu vaste (ka väljaspool gruppe). Tulemus: `cde`.)
-@[1-9](Tagastab enniku. Esimesele grupile vastet ei leidu. Tulemus: `(None, 'cd')`)
+@[1-4](Muster tähistab vastet mittetagastava gruppi.)
+@[1-4](Kõik grupid, mis algavad sulgude ja küsimärgiga, ei tagasta vastet)
+@[1-5](Tagastab enniku kõikidest vastetest.)
+@[1-8](Tagastab kogu vaste, ka väljaspool gruppe.)
+@[1-9](Tagastab enniku. Esimesele grupile vastet ei leidu.)
 
 ---
 
@@ -637,7 +634,7 @@ for email in re.finditer(r"[\w.-]+@[\w.-]+", text):
 ```
 
 @[1-6](`emails` on järjend kõikidest vastetest)
-@[1-9](`finditer()` tagastab iteraatori (elemente tagastatakse jooksvalt vastavalt vajadusele))
+@[1-9](`finditer` tagastab iteraatori (elemente tagastatakse jooksvalt vastavalt vajadusele))
 
 ---
 
