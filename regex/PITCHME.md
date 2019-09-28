@@ -177,7 +177,7 @@ Mittesisalduv tekst: @css[nomatch](`"a`)@css[nomatch-u](`2`)@css[nomatch](`bc"`)
 
 Muster: @css[pat](`{m}`)
 
-Näide: `"a`@css[u](`a{2}`)`c"`
+Näide: `"a`@css[u](`b{2}`)`c"`
 
 Sisalduv tekst: @css[match](`"aa`)@css[match-u](`bb`)@css[match](`cc"`)
 
