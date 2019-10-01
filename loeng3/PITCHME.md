@@ -87,32 +87,32 @@
 
 ## Taanded
 
-![Taanded](code_too_many_indents.png)
+![Taanded](loeng3/code_too_many_indents.png)
 
 
 ---
 
 ## Mittevajalik kood
 
-![Kuud](code_months.png)
+![Kuud](loeng3/code_months.png)
 
 ---
 
 ## Muutuja ülekirjutamine
 
-![Muutuja ülekirjutamine](code_fixed_idcode.png)
+![Muutuja ülekirjutamine](loeng3/code_fixed_idcode.png)
 
 ---
 
 ## Kaheksandarv
 
-![Kaheksandarv](code_octal.png)
+![Kaheksandarv](loeng3/code_octal.png)
 
 ---
 
 ## Koodikordus
 
-![Koodikordus](code_repeat_result_string.png)
+![Koodikordus](loeng3/code_repeat_result_string.png)
 
 ---
 
