@@ -31,7 +31,7 @@
 
 ## Hinnangud
 
-![Hinnangud](ex_stat.png)
+![Hinnangud](loeng3/ex_stat.png)
 
 ---
 
