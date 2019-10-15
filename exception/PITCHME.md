@@ -22,8 +22,6 @@
 
 ---
 
-
-@snap[west]
 ## Erind
 
 ```python
@@ -38,8 +36,22 @@ user_input = -1
 
 calculate_square_root(user_input)
 ```
+
+---
+
+@snap[north-west]
+## Erind (tulemus)
 @snapend
 
+@snap[east font-source-sans-pro]
+
+Traceback (most recent call last):
+  File "C:/Users/Ago/git/python-slides/exception/exception_code.py", line 10, in <module>
+    calculate_square_root(user_input)
+  File "C:/Users/Ago/git/python-slides/exception/exception_code.py", line 4, in calculate_square_root
+    return math.sqrt(value)
+ValueError: math domain error
+@snapend
 
 ---
 
