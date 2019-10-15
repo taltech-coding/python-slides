@@ -42,7 +42,7 @@ calculate_square_root(user_input)
 
 ## Erind (tulemus)
 
-```
+```text
 Traceback (most recent call last):
   File "exception_code.py", line 10, in <module>
     calculate_square_root(user_input)
