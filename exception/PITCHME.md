@@ -44,10 +44,10 @@ calculate_square_root(user_input)
 
 ```text
 Traceback (most recent call last):
-  File "exception_code.py", line 10, in <module>
-    calculate_square_root(user_input)
-  File "exception_code.py", line 4, in calculate_square_root
-    return math.sqrt(value)
+ File "exception_code.py", line 10, in <module>
+  calculate_square_root(user_input)
+ File "exception_code.py", line 4, in calculate_square_root
+  return math.sqrt(value)
 ValueError: math domain error
 ```
 
