@@ -11,7 +11,9 @@
 - Iga nädal väike tagasiside ülesannete keerukuse ja kulunud aja kohta
 - Nädal 1: 373 vastajat
 - Nädal 2: 479 vastajat
-- Nädal 3: 378 vastajat
+- Nädal 3: 406 vastajat
+- Nädal 4: 363 vastajat
+- Nädal 5: 311 vastajat
 - Täitmise eest saab 1p
 @ulend
 
@@ -19,19 +21,13 @@
 
 ## Tagasiside
 
-@ul
-- _1.5h kirjutasin programmi, 2.5h tegelesin stiiliga_
-- _Ülesanded on segased_
-- _Praktikumis võiks rohkem abistamist olla_
-- _Ülesanded pole materjalidega kooskõlas_
-- Tegelikult on ka positiivset tagasisidet :)
-@ulend
+- Vaatame analüüsi
 
 ---
 
 ## Hinnangud
 
-![Hinnangud](loeng3/ex_stat.png)
+![Hinnangud](loeng4/ex_stat.png)
 
 ---
 
@@ -41,28 +37,25 @@
 - 1\. nädal 4.3h
 - 2\. nädal 8.75h
 - 3\. nädal 14h
-- Mitmed vastavad 100h
-
-  - kui iga päev 10h progeda, tuleb kokku 70h
+- 4\. nädal 15h
+- 5\. nädal 12.3h
 @ulend
 
 ---
 
-## Teiste aitamine
+## Plagiaat
 
-@ul
-- On küsitud, et kas ja palju võib teisi aidata
-- Plagiaadihirm!
-- Kui te koodi ei jaga, siis üldiselt midagi ei juhtu.
-
-  - muutuja ümbernimetamine vms ei peta ära
- 
-- Näpunäiteid võib ikka anda.
-@ulend
+- Esimene hoiatus saadetud
+- Vaatasime EX03, EX04 lahendusi
+- Kokku 66 tudengit jäid vähemalt ühe ülesande puhul tulemusse
+- Seekord karistust ei järgne
+- Edaspidi teate jälgida, kuidas oma koodiga ringi käia
+- **Ärge jagage oma koodi teistele**
+- Pigem seletage neile ja proovige õpetada
 
 ---
 
-## Tunnikontroll
+## Kontrolltöö
 
 @ul
 - Sel nädalal toimub tunnikontroll
@@ -76,56 +69,104 @@
 
 ## Konsultatsioon
 
-@ul
-- Täiendusõpe saab see nädal läbi
-- Leiame kõige sobivama(d) aja(d), et korraldada konsultatsioon
-- https://doodle.com/poll/e63emty6hqqmcs37
-- Räägime algkursuse ülesannetest
-@ulend
+- Teisipäeviti kell 16:00 ruumis ICT-402
+- Reedeti kell 14:00 ruumis ICT-121
 
+---
+
+## Nõuandeid
+
+- Alustage ülesannetega varakult - jõuate rohkem küsida
+  - Ärge kulutage liiga palju aega (kui 2h ühtegi mõtet ei tule, tasub puhata)
+- Küsige abi (mitte lahendust)
+  - Mida konkreetsem küsimus, seda tõenäolisemalt saad vastuse
+- Ärge jagage oma koodi, jagage mõtteid
+- Ärge lahendage ülesandeid selleks, et 100% saada
+  - Lahendage neid selleks, et õppida
+
+---
+
+## Nõuandeid
+
+- Tegelege iga päev programmeerimisega
+- Võtke eesmärgiks saada hinne "5", mitte "4"
+- Koodi kirjutades proovi ise aru saada, miks mingi asi nii töötab
+  - Kui ei saa aru, proovi välja uurida
+- Moodustage õppimisgrupid (4-6 liiget)
+  - Seletage erinevaid teemasid grupi liikmete vahel
+  - Näiteks võtate kokku 15 minutit, kus igaüks seletab grupile, kuidas ta tsüklist aru saab
+
+- https://www.youtube.com/watch?v=yGBfd7LeGMM
 ---
 
 ## Taanded
 
-![Taanded](loeng3/code_too_many_indents.png)
+![Taanded](loeng4/code_too_many_indents.png)
 
 
 ---
 
 ## Mittevajalik kood
 
-![Kuud](loeng3/code_months.png)
+![Kuud](loeng4/code_months.png)
 
 ---
 
 ## Muutuja ülekirjutamine
 
-![Muutuja ülekirjutamine](loeng3/code_fixed_idcode.png)
+![Muutuja ülekirjutamine](loeng4/code_fixed_idcode.png)
 
 ---
 
 ## Kaheksandarv
 
-![Kaheksandarv](loeng3/code_octal.png)
+![Kaheksandarv](loeng4/code_octal.png)
 
 ---
 
 ## Koodikordus
 
-![Koodikordus](loeng3/code_repeat_result_string.png)
+![Koodikordus](loeng4/code_repeat_result_string.png)
+
+
+---
+
+## Isikukoodi sünnikoha leidmine
+
+- Paljud kirjeldasid andmestruktuuri (näiteks järjend linna nimega, algus- ja lõppkoodiga), seejärel otsiti tsükliga õige vahemik.
+- Kuidas kirjeldada andmestruktuur, et tulemuse saab ühe operatsiooniga?
+
+---
+
+## Nimetamine...
+
+![Nimetamine](loeng4/code_holy_s.png)
+
+---
+
+## Ümardamine
+
+![Nimetamine](loeng4/code_round.png)
+
+---
+
+## Return puudu
+
+![Returnitu](loeng4/code_tk_no_return.png)
+
+---
+
+## int/str
+
+![int/str](loeng4/code_tk_int_str.png)
 
 ---
 
 ## Teemad
 
-- Mis on progemine?
-- Muutuja, andmetüüp
-- Tingimuslause
-- Tsükkel
-- Järjend
-- Funktsioon
-- Vead programmi käivitamisel
-- Silumine (_debug_)
+- Erind
+- Testimine
+- Andmestruktuurid
 
 ---
 
