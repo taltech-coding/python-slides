@@ -104,6 +104,10 @@ TypeError: '<' not supported between instances of 'str' and 'int'
 - `try ... except` plokis jääb koodi täitmine pooleli sealt realt, kus viga tekib
 - Kinnipüüdmise korral on võimalik midagi ette võtta, et programmi töö saaks jätkuda
 
+---
+
+## Erinditöötlus (_exception handling_)
+
 ```python
 try:
     sqrt = math.sqrt(-1)
@@ -150,6 +154,106 @@ def calculate_square_root(value):
 
 @[7-9](Kuigi nulliga jagamise viga näites ei teki, on see näide, kuidas mitut erindit ühe plokiga püüda.)
 @[7-15](`except ExceptionName as e` võimaldab plokis kasutada muutujat `e`, et saada lisainfot erindi kohta.)
+
+---
+
+## Erindi tõstmine
+
+- Programm võib vajadusel tõsta (_raise_) erindi
+- See tähendab, et programm ise tekitab "vea"
+- Üldiselt kasutatakse funktsioonides
+- Funktsiooni väljakutsuja saab ise otsustada, kuidas mingi vea puhul käituda
+- Näiteks ebakorrektse sisendi korral võib funktsioon tagastada -1
+- Samas funktsiooni väljakutsuja ei tea, mis viga täpselt tekkis
+
+---
+
+## Erindi tõstmine
+
+- Erindit saab tõsta käsuga `raise`
+- Sellele järgneb erindi objekt, millel on üldiselt üks kohustuslik argument: teade (_message_)
+- Kui nüüd keegi kutsub välja funktsiooni, saab ta ise otsustada, kuidas käituda "vea" puhul
+
+---
+
+## Erindi tõstmine
+
+```python
+def enter_nightclub(age):
+    if age < 18:
+        raise ValueError("Too young")
+    if age > 69:
+        raise ValueError("Too old")
+    enter()
+```
+@[2-3](Kui vanus on alla 18, tõstetakse erind. Funktsiooni töö lõppeb.)
+
+---
+
+## Erindi tõstmine
+
+```python
+def enter_nightclub(age):
+    if age < 18:
+        raise ValueError("Too young")
+    if age > 69:
+        raise ValueError("Too old")
+    enter()
+    
+def main():
+    # get user age
+    age = 19
+    try:
+        enter_nightclub(age)
+        party()
+    except ValueError as e:
+        print(f"Sorry, no party for you. Reason: {e}.")
+```
+
+---
+
+## Oma erindi defineerimine
+
+- Programm võib kirjeldada uue erinditüübi
+- Erind on objekt, seega uue erinditüübi defineerimiseks laiendame mõnda olemasolevat
+- Üldiselt piisab tüübi defineerimisest, mingit täiendavat sisu (laiendust) vaja pole
+
+```python
+class RobotInvalidInputException(Exception):
+    pass
+```
+
+---
+## Erindi näide
+
+```python
+class TooYoungToEnter(Exception):
+    pass
+    
+class TooOldToEnter(Exception):
+    pass
+
+def enter_nightclub(age):
+    if age < 18: raise TooYoungToEnter("Sorry, must be 18")
+    if age > 69: raise TooOldToEnter("May-be go to cafe?")
+    enter()
+    
+def main():
+    # .. get age again
+    user_age = 77
+    try:
+        enter_nightclub(user_age)
+    except TooYoungToEnter as e:
+        print(f"Wait a bit. Info from the nightclub: {e}")
+    except TooOldToEnter as e:
+        print(f"Waited too long. Info from the nightclub: {e}")
+    else:
+        # executed if try block does not raise an exception.
+        # it avoids accidentally catching an exception
+        # that wasn't raised by enter_nightclub(),
+        # the function for which the try-catch was meant.
+        party()
+```
 
 ---
 
