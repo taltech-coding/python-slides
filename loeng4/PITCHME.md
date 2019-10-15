@@ -55,14 +55,21 @@
 
 ---
 
+## Järeltunnikontroll
+
+- Toimub 9. nädala praktikumides.
+
+---
+
 ## Kontrolltöö
 
 @ul
-- Sel nädalal toimub tunnikontroll
-- Võite vaadata täiendusõppe t06 ülesandeid
-- 5 ülesannet
+- Toimub 10. JA 11. nädala praktikumis
+- **Toimub arvutiklassi arvutiga**
+- ained.ttu.ee kursuse lehel on registreerimine avatud
+- Coderas on eelmise aasta Kontrolltöö näidis väljas
+- 3 ülesannet, 5 valikvastustega küsimust
 - Vaja vähemalt 50% punktidest saada
-- Täiendusõppe arvestuse saamise eeldus 
 @ulend
 
 ---
@@ -140,7 +147,7 @@
 
 ## Nimetamine...
 
-![Nimetamine](loeng4/code_holy_s.png)
+![Nimetamine](loeng4/code_holy_s.jpg)
 
 ---
 
@@ -167,6 +174,7 @@
 - Erind
 - Testimine
 - Andmestruktuurid
+- (_List comprehension_)
 
 ---
 
