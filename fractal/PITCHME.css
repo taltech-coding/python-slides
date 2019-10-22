@@ -1,0 +1,33 @@
+.mandelbrot {
+    width: 25%;
+    right: -100px;
+}
+.sierpinski {
+    width: 25%;
+    right: -100px;
+}
+
+.barnsley {
+    width: 25%;
+}
+
+.reveal ul.small li {
+   font-size: 0.6em;
+}
+
+.julia {
+    width: 50%;
+}
+
+.south {
+    left: 40%;
+    transform: translateX(-40%);
+}
+
+.reveal section img {
+    border: 0;
+}
+
+.ship {
+    width: 25%;
+}
