@@ -2,6 +2,10 @@
    font-size: 0.8em;
 }
 
+.reveal ul.ul-80 li {
+    font-size: 0.8em;
+}
+
 .pat {
     font-weight: bold;
     background-color: #CCCCCC;
