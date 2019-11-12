@@ -6,17 +6,20 @@
 
 ## Objekt
 
+@ul
 - Objekt kirjeldab ära konkreetse loogilise kogumi
   - näiteks õues olev punane auto on üks objekt
   - selle taga olev roheline auto on teine objekt jne
 - Tavaliselt mõtleme me arvust kui ühest väärtusest (nt 7)
 - Objekt koosneb tavaliselt mitmest väärtusest
   - värv, mark, mudel, pikkus, registrimass jne
- 
+@ulend
+
 ---
 
 ## Klass
 
+@ul
 - Klass kirjeldab ära struktuuri
   - näiteks autol on värv, pikkus jne
 - Klass (üldiselt) ei sisalda andmeid
@@ -24,44 +27,51 @@
 - Samatüüpi andmed pärinevad kõik ühest klassist
   - punane auto on auto, roheline auto on auto jne
 - Kuigi meil on maailmas mitu autot (objekti), siis meil on üks klass auto
+@ulend
 
 ---
 
 ## OOP
 
+@ul
 - Objekt-orienteeritud programmeerimine (OOP) on programmeerimise paradigma, mis kasutab objekte
 
 - Python on objekti-orienteeritud programmeerimiskeel (OOP)
 
 - Pythonis kõik asjad on objektid
+@ulend
 
 ---
 
 ## OOP tehnikad
 
+@ul
 - Kapseldamine (_encapsulation_)
- - funktsionaalsus peidetakse
+  - funktsionaalsus peidetakse
 - Modulaarsus (_modularity_)
- - programm jagatakse iseseisvateks tükkideks
+  - programm jagatakse iseseisvateks tükkideks
 - Polümorfism (_polymorphism_)
- - alamklass saab meetodeid üle kirjutada
+  - alamklass saab meetodeid üle kirjutada
 - Pärimine (_inheritance_)
- - alamklass pärib omadused ja meetodid
+  - alamklass pärib omadused ja meetodid
+@ulend
 
 ---
 
 ## Sõne
 
+@ul
 - Sõne on objekt
 - Kui loote uue sõne, siis tegelikult luuakse uus objekt, mille tüüp on `str`.
 - Sõne "funktsioone" kutsutakse meetoditeks
- - ehk siis klassis kirjeldatud funktsioonid on meetodid
+  - ehk siis klassis kirjeldatud funktsioonid on meetodid
+@ulend
 
 ---
 
 ## Sõne
  
-```python
+```python zoom-15
 s = "Hello"
 print(type(s))  # <class 'str'>
 print(id(s))  # 30773472
@@ -78,7 +88,7 @@ print(id(s.replace("H", "h")))  # 61507648
 
 ## List
 
-```python
+```python zoom-12
 a = [1, 2, 3]
 b = [1, 2, 3]
 c = b
@@ -101,7 +111,7 @@ print(id(c))   # 44059184 - and same
 
 ## Veel objekte
 
-```python
+```python zoom-15
 print(type(1))     # <class 'int'>
 print(type(True))  # <class 'bool'>
 print(type(1.2))   # <class 'float'>
@@ -114,15 +124,16 @@ print(type(type))  # <class 'type'>
 
 ## Klass kui andmetüüp
 
+@ul
 - Iga klass on andmetüüp
 - Näiteks on Pythonis klass `str`
 - Iga konkreetne sõne, näiteks `"tere"`, on selle klassi objekt (ehk isend)
 - Ühest klassist saab luua lõpmata palju objekte
 - Objekti kohta öeldakse ka isend ja instants
- - Üldiselt mõeldakse "objekt", "isend", "instants" terminitega samu asju
- - Erinevates allikates võivad neil erinevused olla
- - Siin aines kasutame termineid objekt ja isend.
- 
+  - Üldiselt mõeldakse "objekt", "isend", "instants" terminitega samu asju
+  - Erinevates allikates võivad neil erinevused olla
+  - Siin aines kasutame termineid objekt ja isend.
+@ulend
 ---
 
 ## Teeme oma klassi
@@ -149,11 +160,13 @@ print(id(t))    # 12423408
 
 ## Objektide võrdlemine
 
+@ul
 - Objektide võrdlemine `==` võrdlusega kontrollib vaikimisi seda, kas nad viitavad samale objektile
 - Seda, mida täpselt kontrollitakse, saab üle kirjutada
-- Näiteks sõne puhul kontrollitakse seda, kas sisu (st sümbolid) on samad jne
+  - Näiteks sõne puhul kontrollitakse seda, kas sisu (st sümbolid) on samad jne
+@ulend
 
-```python
+```python fragment
 s1 = Student()
 s2 = Student()
 s3 = s1
@@ -192,18 +205,20 @@ s.hello()       # no "self" argument
 
 ## `self`
 
+@ul
 - Kõik objekti meetodid sisaldavad esimest parameetrit `self`
- - selle parameetri nimi võib ka midagi muud olla; kasutage `self`
+  - selle parameetri nimi võib ka midagi muud olla; kasutage `self`
 - `self` viitab isendile
 - Eelmises näites oli väljakutse `s.hello()`
- - kui `hello()` meetod käima pannakse, antakse sellele `s` kaasa
+  - kui `hello()` meetod käima pannakse, antakse sellele `s` kaasa
 - Meetodi jaoks vajalike väärtuste jaoks lisatakse need peale `self` parameetrit
+@ulend
 
 ---
 
 ## `self` ja parameetrid
 
-```python
+```python zoom-15
 class Student:
     def greet_friend(self, friend_name):
         print(f"Hello, {friend_name}")
@@ -219,12 +234,14 @@ s.greet_friend("Kaia")
 
 ## Konstruktor
 
+@ul
 - Objekti loomisel pannakse käima eriline meetod ehk konstruktor
-- Meetod kirjeldatakse: `__init__(self)`
+- Meetod kirjeldatakse: `\_\_init\_\_(self)`
 - See meetod pannakse käima üks kord objekti loomisel
 - Eelnevas näites `s = Student()` kutsub välja konstruktori
 - Konstruktori kirjeldamine ei ole kohustuslik
 - Konstruktor peab tagastama `None` (eraldi `return` lauset ei kirjutata).
+@ulend
 
 ---
 
@@ -296,10 +313,9 @@ class Shop:
         print(f"Inventory for {self.name} (est. {self.established}:")
         for p in self.products:
             print("product: ..")
-            pass
 ```
 @[1-8](`name` muutuja salvestatakse objekti muutujaks)
-@[1-8](`age` muutuja kasutatakse `self.establishes` väärtuse arvutamiseks. Funktsiooni lõpus kaotab `age` kehtivuse.)
+@[1-8](`age` muutuja kasutatakse `self.established` väärtuse arvutamiseks. Funktsiooni lõpus kaotab `age` kehtivuse.)
 @[1-8](`products_file` on valikuline parameeter. Kui see on määratud, siis loetakse failist tooted.)
 @[1-8](`self.products` luuakse siin tühja järjendina. Seal hakatakse hoidma kaupade nimekirja.)
 @[1,9-13](`self` kaudu loodud muutujad on siin kättesaadavad: `name`, `established` ja `products`.)
@@ -313,7 +329,7 @@ class Shop:
 
 ```python
 class Point2D:
-    """Point in (x, y) coordinate space)."""
+    """Point in (x, y) coordinate space."""
     def __init__(self, x, y):
         self.x = x
         self.y = y
@@ -322,20 +338,22 @@ class Point2D:
         print(f"({self.x:.2f}, {self.y:.2f})")
 ```
 @[1](Kirjeldab klassi `Point2D`)
-@[3](Konstruktor, pannakse käima objekti loomisel)
+@[3-5](Konstruktor, pannakse käima objekti loomisel)
 @[3,7](Klassi funktsioonid ehk meetodid)
 
 ---
 
 ## Objekt (_object_)
 
+@ul
 - Konkreetne isend, instants (_instance_)
 - Luuakse klassi kirjeldusest
 - Klassist võib luua lõpmata palju objekte
 - Samast klassist loodud objektid on sarnase struktuuriga (neil on samad meetodid ja muutujad)
 - Aga igal objektil on oma olek (muutujate väärtused)
+@ulend
 
-```python
+```python fragment
 p1 = Point2D(1.234, 0.23456)
 p2 = Point2D(-1, 3)
 
@@ -401,13 +419,14 @@ p5.print_point()   # (11.00, 3.00)
 
 ## Erilised meetodid
 
+@ul
 - Python võimaldab klassis ära kirjeldada objekti käitumist erinevates olukordades
-- Näiteks `__eq__` meetodit kasutatakse selleks, et võrrelda objekte `==` võrdlusega
-- `__str__` meetodit kasutatakse, et saada objektist sõne kuju
-- Lisaks näiteks `__add__(self, other)` objektide liitmiseks jne
-- `__lt__(self, other)` väikem-kui võrdluseks
-- `__len__(self)` kui rakendatakse `len(self)`
-- jne
+- Näiteks `\_\_eq\_\_` meetodit kasutatakse selleks, et võrrelda objekte `==` võrdlusega
+- `\_\_str\_\_` meetodit kasutatakse, et saada objektist sõne kuju
+- Lisaks näiteks `\_\_add\_\_(self, other)` objektide liitmiseks jne
+- `\_\_lt\_\_(self, other)` väikem-kui võrdluseks
+- `\_\_len\_\_(self)` kui rakendatakse `len(self)`
+@ulend
 
 ---
 
@@ -455,11 +474,11 @@ print(p6 is p8)   # True
 ## Objekt sõnena
 
 @ul[ul-80](false)
-- `__str__(self)` meetod võimaldab kirjeldada, mida objekti puhul sõnena tagastatakse
+- `\_\_str\_\_(self)` meetod võimaldab kirjeldada, mida objekti puhul sõnena tagastatakse
 - Näiteks printimisel kasutatakse seda
 - Samuti `str(obj)` puhul.
 - Meetod tagastab sõne
-- Vaikimisi `print(p1)` kuvab midagi sellist `<__main__.Point2D object at 0x0050D5D0>`.
+- Vaikimisi `print(p1)` kuvab midagi sellist `<\_\_main\_\_.Point2D object at 0x0050D5D0>`.
 @ulend
 
 ```python
@@ -474,17 +493,40 @@ print(p1)           # (1.00, 2.00)
 
 ---
 
-## Klassi muutujad
+## Objekt sõnena
 
-- Klassi muutuja kirjeldatakse klassi sees väljaspool meetodeid
-- Klassi muutujal on üks väärtus läbi terve programmi
-- Sõltumata sellest, mitu objekti klassis luuakse, klassi muutujal on üks ühine väärtus
-- Üldiselt ei ole vaja kasutada
+@ul
+- Pythonis on eriline meetod `\_\_repr\_\_`, mille eesmärk on tagastada üheselt mõistetav sõne.
+  - Tihti tagastatakse sõne, millega saab objekti luua `eval()` funktsiooni abil
+- Kui `\_\_str\_\_` pole defineeritud, kutsutakse `\_\_repr\_\_` välja.
+- `\_\_str\_\_` meetodi eesmärk on pigem olla informatiivne
+- Seega alati on mõistlik kirjeldada `\_\_repr\_\_`
+@ulend
+
+```python fragment
+class Point2D:
+    def __repr__(self):
+        return f"Point2D({self.x}, {self.y})"
+```
 
 ---
 
-## Klassi muutuja näide
+## Klassi muutujad
 
+@ul
+- Klassi muutuja kirjeldatakse klassi sees väljaspool meetodeid
+- Klassi muutujal on üks väärtus läbi terve programmi
+- Sõltumata sellest, mitu objekti klassist luuakse, klassi muutujal on üks ühine väärtus
+- Üldiselt ei ole vaja kasutada
+@ulend
+
+---
+
+@snap[north span-100]
+## Klassi muutuja näide
+@snapend
+
+@snap[west span-53]
 ```python
 
 class Doorbell:
@@ -497,7 +539,11 @@ class Doorbell:
         print("Ringing..")
         self.click_count += 1
         Doorbell.click_count += 1
+```
+@snapend
 
+@snap[east span-53]
+```python
 d1 = Doorbell()
 d2 = Doorbell()
 
@@ -507,26 +553,93 @@ print(d1.click_count)         # 10
 print(d2.click_count)         # 4
 print(Doorbell.click_count)   # 14
 ```
+@snapend
 
+@snap[south span-100]
 @[12, 13](Loome kaks uksekella `d1` ja `d2`)
 @[15,16](Helistame esimest 10 ja teiset 4 korda.)
 @[1-10](Klassi muutuja ja objekti muutuja võivad sama nimega olla - need ei lähe omavahel segamini.)
 @[1-10](Klassi muutuja on seotud klassiga, objekti muutuja iga objektiga.)
 @[1-10](`ring()` meetodis suurendame konkreetse uksekella vajutamiste arvu `self.click_count += 1`.)
-@[1-10](Ühtlasi muudame klassi muutujat `Doorbell.click_count += 1`.)
+@[1-11](Ühtlasi muudame klassi muutujat `Doorbell.click_count += 1`.)
+@snapend
 
+---
+### Objekti väärtuste pärimine/muutmine
+
+@ul[text-08]
+- Kapseldamise eesmärk on peita objekti olek maailma eest ning lubada selle muutmine vaid läbi teatud meetodite.
+- Objekti väärtuste muutmiseks kasutatakse tavaliselt *getter* ja *setter* meetodeid
+- See annab võimaluse kontrollida, mida ja kuidas tagastatakse/muudetakse
+@ulend
+
+```python fragment
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def set_name(self, name):
+        self.name = name
+
+    def get_name(self):
+        return self.name
+```
+
+---
+
+@snap[north span-100]
+## `@property` dekoraator
+
+@ul[text-07]
+- Python pakub mugavama viisi, kuidas *getter* ja *setter* meetodeid kirjeldada
+- Kasutame dekoraatorit `@property`
+  - lisatakse meetodi kirjelduse ette
+@ulend
+@snapend
+
+@snap[south-west span-60]
+```python fragment zoom-07
+
+class Student:
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
+
+    @property
+    def name(self):
+        # some optional calculation for name
+        return f"{self.firstname} {self.lastname}"
+
+    @name.setter
+    def name(self, name):
+        # some optional validation
+        self.firstname, self.lastname = name.split(" ")
+```
+@snapend
+
+@snap[south-east span-40]
+```python fragment zoom-08
+
+if __name__ == '__main__':
+    s = Student("Ago", "Luberg")
+    s.name = "Ain Kaasik"
+    print(s.name)  # Ain Kaasik
+```
+@snapend
 
 ---
 
 ## Pärimine
 
+@ul[text-09]
 - Klass võib pärida osa (või kõiki) atribuute (omadusi ja meetodeid) teistelt klassidelt
 - Näiteks klass "loom" omab üldisi atribuute looma kohta (näiteks käppade, jalgade, käte arv; meetodid "söö", "tee häält")
 - Klass "koer" võib pärida kõik klassi "loom" atribuudid
-- Liksa võib "koer" klassis:
- - täiendavaid atribuute lisada (näiteks "kas haugub")
- - mõne meetodi üle kirjutada ("tee häält" teeb haukumise häält)
+- Lisaks võib "koer" klassis:
+  - täiendavaid atribuute lisada (näiteks "kas haugub")
+  - mõne meetodi üle kirjutada ("tee häält" teeb haukumise häält)
 - Pärimise kohta öeldakse ka laiendamine
+@ulend
 
 ---
 
@@ -550,14 +663,15 @@ print(p3d)     # (1.00, 2.00)
 
 ## Pärimine
 
+@ul[text-08]
 - Kui pöördume objekti meetodi/muutuja poole, siis:
- - kõigepealt otsitakse meetodit/muutujat objekti klassist
- - kui objekti klassis seda ei leidu, otsitakse ülemklassist
- - kui ülemklassist ei leidu, siis ülemklassi ülemklassist jne
-
+  - kõigepealt otsitakse meetodit/muutujat objekti klassist
+  - kui objekti klassis seda ei leidu, otsitakse ülemklassist
+  - kui ülemklassist ei leidu, siis ülemklassi ülemklassist jne
 - Seega, kui alamklassis sama nimega meetod kirjutda, "peidab" see ülemklassi meetodi ära
+@ulend
 
-```python
+```python fragment
 class Point2D:
     # ...
     def __str__(self):
@@ -589,6 +703,7 @@ print(p3d)     # (1.00, 2.00, 3.00)
 
 ## Nimetamine
 
+@ul[text-08]
 - Klassi nimes kasutatakse reeglina _Upper Camel Case_ formaadis (sõnad kokku kirjutatud, iga sõna algab suure tähega):
  - `AlmightyRobot`, `MapObject`
  - Erindid on klassid, seega tuleb neid samamoodi nimetada: `NoMoreMoves`, `PrincessException`
@@ -597,6 +712,7 @@ print(p3d)     # (1.00, 2.00, 3.00)
  - `_internal_counter`, `_calculate_raw_price()`
 - Kaks alakriipsu on veel rangem "soovitus"
   - kuigi Python lubab neid kasutada ka väljaspool objekti
+@ulend
 
 ---
 
