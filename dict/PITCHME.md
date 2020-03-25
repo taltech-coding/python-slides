@@ -103,3 +103,82 @@ print(d['one']) # => 2
 ```
 
 ---
+## Näited
+
+@snap[west span-50]
+```python
+phones = {
+'politsei' : '110',
+'päästeamet' : '112'
+}
+print(phones)
+# one concrete element
+print(phones['politsei'])
+# add TTÜ phone
+phones['ttü'] = '620 2002'
+print(phones)
+# remove element
+del phones['politsei']
+print(phones)
+# all (key, value) pairs
+print(phones.items())
+# all values
+print(phones.values())
+# all keys
+print(phones.keys())
+```
+@snapend
+
+@snap[east span-50]
+```text
+{'politsei': '110', 'päästeamet': '112'}
+110
+{'politsei': '110', 'päästeamet': '112', 'ttü':
+'620 2002'}
+{'päästeamet': '112', 'ttü': '620 2002'}
+dict_items([('päästeamet', '112'), ('ttü', '620
+2002')])
+dict_values(['112', '620 2002'])
+dict_keys(['päästeamet', 'ttü'])
+```
+@snapend
+
+---
+
+## Tsüklid
+
+- võti-väärtus paarid
+
+```python
+for name, phonenr in phones.items():
+    print(name, phonenr)
+```
+
+- tsükkel üle sõnastiku annab kõik võtmed:
+
+```python
+for name in phones:
+    print(name, phones[name])
+```
+
+- keerukam näide:
+
+```python
+for day, day_dict in training.items():
+    print(f"|{f'Training for {day}': ^24}|")
+    for time, activity in day_dict.items():
+        print(f"| {time: >9} | {activity: <11}|")
+```
+
+```text
+| Training for monday |
+| 10:00 | run |
+| 12:00 | swim |
+| Training for wednesday |
+| 18:00 | gym |
+| late | walk |
+| Training for friday |
+| morning | yoga |
+| Training for thursday |
+| night | powersleep |
+```
