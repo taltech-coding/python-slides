@@ -82,6 +82,10 @@ a[1] = 11
 a[2] = 22
 print(a) # => {'1': 1, '2': 2, 1: 11, 2: 22}
 ```
+---
+
+## Sõnastik (_dict_)
+
 - Väärtus võib omakorda sõnastik olla
 ```python
 training = {
