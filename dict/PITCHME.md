@@ -103,7 +103,6 @@ print(d['one']) # => 2
 ```
 
 ---
-## Näited
 
 @snap[west span-50]
 ```python
@@ -129,18 +128,32 @@ print(phones.keys())
 ```
 @snapend
 
-@snap[east span-50]
+@snap[east span-60]
 ```text
-{'politsei': '110', 'päästeamet': '112'}
+
+
+
+
+{'politsei': '110', 
+'päästeamet': '112'}
 110
-{'politsei': '110', 'päästeamet': '112', 'ttü':
-'620 2002'}
+
+{'politsei': '110', 'päästeamet': '112', 
+'ttü': '620 2002'}
+
 {'päästeamet': '112', 'ttü': '620 2002'}
-dict_items([('päästeamet', '112'), ('ttü', '620
-2002')])
+
+
+dict_items([('päästeamet', '112'), 
+('ttü', '620 2002')])
 dict_values(['112', '620 2002'])
+
 dict_keys(['päästeamet', 'ttü'])
 ```
+@snapend
+
+@snap[north]
+## Näited
 @snapend
 
 ---
@@ -161,7 +174,9 @@ for name in phones:
     print(name, phones[name])
 ```
 
-- keerukam näide:
+---
+
+## Tsükli näide
 
 ```python
 for day, day_dict in training.items():
@@ -171,14 +186,15 @@ for day, day_dict in training.items():
 ```
 
 ```text
-| Training for monday |
-| 10:00 | run |
-| 12:00 | swim |
+
+|  Training for monday   |
+|     10:00 | run        |
+|     12:00 | swim       |
 | Training for wednesday |
-| 18:00 | gym |
-| late | walk |
-| Training for friday |
-| morning | yoga |
-| Training for thursday |
-| night | powersleep |
+|     18:00 | gym        |
+|      late | walk       |
+|  Training for friday   |
+|   morning | yoga       |
+| Training for thursday  |
+|     night | powersleep |
 ```
