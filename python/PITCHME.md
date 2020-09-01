@@ -9,14 +9,14 @@
 - Autor on Guido van Rossum
 - 2018 juulis astus tehnilise juhi kohalt tagasi
 - Peamised programmeerimiskeelelised põhimõtted pärinevad keelest ABC
-- TIOBE indeksi järgi 4. koht (peale Java, C, C++), 7%
-- StackOverflow survey järgi 4. koht (peale JavaScript, Java, Bash), 40%
+- TIOBE indeksi järgi 3. koht (peale C, Java), 9.7%
+- StackOverflow survey järgi 4. koht (peale JavaScript, HTML/CSS, SQL), 44%
 
 ---
 
 ## Python
 
-- Viimane versioon 3.7
+- Viimane versioon 3.8
 - Python on tüüpiliselt interpreteeritav keel
  - programmikood käivitatakse jooksvalt
  - võrdluseks kompileeritav keel - lähtekood kompileeritakse masinkoodiks 
@@ -65,8 +65,6 @@ Hello world!
 ### Käivitamine
 
 - Käsureal `python3 hello.py`
-
-![Execution](python/execution.png)
 
 ---
 

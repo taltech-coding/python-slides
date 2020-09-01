@@ -8,9 +8,9 @@
 
 @ul 
 
-- 8 loengut (paaritu nädal T14)
-- 16 praktikumi: K14, R10, R12 
-- 8 süvendatud praktikumi: paaris T14 
+- 8 loengut (paaritu nädal T12)
+- 16 praktikumi: T14, N8, N9:45, N16:10 
+- 8 süvendatud praktikumi: paaris T12 
 - Kursuse jooksul lahendate ülesandeid **iseseisvalt**
 - Ülesande lahendamine ja **ettenäitamine** annab punkte 
 - Punktid liidetakse 
@@ -24,13 +24,13 @@
 
 ## Konsultatsioon
 
-- Kasutage täiendõppe tunde (E16, T16, R8, R14)
+- Kasutage täiendusõppe tunde (E14, E16, R8:15, R10)
 
 ---
 
 ## Ainele registreerimine
 
-- ained.ttu.ee -> uniid login
+- moodle.taltech.ee -> uniid login
 - suunatakse Microsofti lehele
  - email: uniid@ttu.ee (nt aglube@ttu.ee)
   - sellega saate ühtlasi oma e-kirju lugeda mail.ttu.ee lehel
@@ -42,9 +42,13 @@
 
 ## Ainele registreerimine
 
-- Sessiooniõppurid (kaugõppurid) kasutage võtit: `KAUG`
-- Päevaõppurid kasutage võtit: `TAVA`.
-- (Kas töötab?)
+- Kasutage võtit: 
+ - `IAAB`
+ - `IADB`
+ - `IADB-SESS`
+ - `IAIB`
+ - `MUU` (muu õppekava)
+ - `VABA` (ilma deklaratsioonita)
 
 ---
 
@@ -54,8 +58,8 @@
 @ul
 
 - Iga nädal kaks ülesannet
- - PR ülesanne tunnis tegemiseks
- - EX ülesanne kodus lahendamiseks
+  - PR - lihtsam ülesanne
+  - EX - mahukam ülesanne
 - Automaattestimine
 - Kokku 15 nädalat
 
@@ -67,15 +71,13 @@
 
 @ul
 
-- PR ülesanne praktikumi lõpus
- - Hiljem saab 0p
-- EX ülesanne järgmise nädala alguseks
- - kuni 50% punktidest saab üks nädal hiljem
- - edasi 0p
+- Ülesande tähtaeg järgmise nädala teisipäev kell 09:00
+- EX ülesande puhul iga 24h-ga -10%
+- PR ülesande puhul peale tähtaega nädal aega -50%, edasi 0
 
-- Näiteks EX01 tähtaeg on 10. september 23:59 (saab kuni 100%)
-- kuni 17. september 23:59 saab kuni 50%
-- alates 18. septembrist 0p
+- Näiteks EX01 tähtaeg on 8. september 09:00 (saab kuni 100%)
+- kuni 13. september 09:00 saab kuni 50%
+- alates 17. septembrist 0p
 
 @ulend
 
@@ -97,13 +99,13 @@
 
 ## Ülesande ettenäitamine
 
-@ul
+@ul[ul-80]
 
 - Ettenäitamisel veendume, et tudeng saab **enda** kirjutatud koodist aru
 - Ettenäitamisel anname tudengi koodile tagasisidet
 - Ettenäitamise eest on (väga harva) võimalik saada trahvipunkte
- - kui tudeng ei saa **enda** koodist aru
- - kood on väga ebapraktiline
+  - kui tudeng ei saa **enda** koodist aru
+  - kood on väga ebapraktiline
 - Tavaliselt antakse tudengile võimalus koodi parandada
 
 @ulend
@@ -119,7 +121,7 @@
  - stiilikontroll (korras => 1p, üks viga => 0)
  - ettenäitamine kuni 1p
 - Saadud komponendid korrutatakse
- - näiteks: ``13 * 1 * 1 => 13p``.
+ - näiteks: `13 x 1 x 1 => 13p`.
 - Kui stiil on korrast ära, siis on kokku 0p
 - Kui ülesanne pole ette näidatud, siis on kokku 0p
 
@@ -129,14 +131,14 @@
 
 ## Automaatne stiilikontroll
 
-@ul
+@ul[ul-80]
 
  - Kõik lahendused peavad vastama stiilinõuetele
  - Kasutame aines kahte kontrolli:
-  - [PEP 8](https://www.python.org/dev/peps/pep-0008/) - Üldine koodistiil
-  - [PEP 257](https://www.python.org/dev/peps/pep-0257/) - Dokumenteerimise stiil
+   - [PEP 8](https://www.python.org/dev/peps/pep-0008/) - Üldine koodistiil
+   - [PEP 257](https://www.python.org/dev/peps/pep-0257/) - Dokumenteerimise stiil
  - Funktsioonid, klassid, meetodid jms peavad olema kommenteeritud
-  - Sisu kontrollime ka ("asd" võib automaattesterile sobida, aga õppejõule mitte!)
+   - Sisu kontrollime ka ("asd" võib automaattesterile sobida, aga õppejõule mitte!)
  - Automaattester annab stiilivigadest teada
 
 @ulend
@@ -152,7 +154,7 @@
 - Kokku semestri jooksul umbes 8 ülesannet
 - Nende eest saab kokku 100p
 - "5" saamiseks tuleb neid lahendada
-- Teemadest räägime paaris teisipäeval kell 14.00
+- Teemadest räägime paaris teisipäeval kell 12.00
 
 @ulend
 
@@ -196,8 +198,8 @@
 @ul
 
 - **Eksamieeldus:**
- - vähemalt 200p
- - TK 50%, KT 50%
+  - vähemalt 200p
+  - TK 50%, KT 50%
 - Eksam toimub arvutiga
 - Lahendatakse ülesandeid + *quiz*
 - Interneti kasutamine pole lubatud
@@ -207,16 +209,16 @@
 
 ---
 
-## Teemad nädalate kaupa
+## Nädalate teemad
 
 * 1n Sissejuhatus, muutuja, tingimuslause, sisendi lugemine
 * 2n funktsioon, matemaatilised avaldised
-* 3n sõne
-* 4n järjend, tsükkel
+* 3n sõne, tsükkel
+* 4n järjend, tsükkel, sõnastik
 * 5n Tunnikontroll, sõnastik
-* 6n sõne, regulaaravaldised
-* 7n järjend, tsükkel jm kordamine
-* 8n failid (lugemine, kirjutamine), sortimine
+* 6n objekti mõiste
+* 7n OOP
+* 8n failid (lugemine, kirjutamine), sortimine, testimine
 
 ---
 
@@ -227,8 +229,8 @@
 * 10n Kontrolltöö
 * 11n Objektid, klassid
 * 12n Objektid, klassid, pärimine
-* 13n Veebist lugemine
-* 14n Vaba struktuuriga OOP
+* 13n Veebist lugemine, API
+* 14n OOP + välised teegid
 * 15n Vaba struktuuriga OOP
 * 16n Kordamine
 
@@ -252,8 +254,8 @@
 
 @ul
 - Arvestuse saamiseks:
- - tuleb käia tunnis kohapeal, 2 korda võib puududa
- - tuleb sooritada algkursuse tunnikontroll (5. nädalal)
+  - tuleb lahendada ära antud ülesanded 7. nädalaks
+  - tuleb sooritada algkursuse tunnikontroll (5. nädalal)
 
 @ulend
 
@@ -266,7 +268,8 @@
 - Abiõppejõud aitavad küsimuste korral
 - Lahendame mõned ülesanded ka ekraanil läbi
 - Üldiselt on ülesanded teemade kaupa (1. tund näiteks muutuja, printimine, sisendi lugemine)
-- Kõiki ülesandeid ei pea ära lahendama
+- Ülesannetel pole konkreetseid tähtaegu
+- Soovitatav oleks t01 lahendada enne t02-e ära jne
 @ulend
 
 ---
@@ -289,12 +292,21 @@
 ## Materjalid
 
 @ul
-- ained.ttu.ee - kursuse info, ülesanded jms (ka kõik viited võiks siia jõuda)
-- discord chat: https://discord.gg/hdjyycF
+- moodle.taltech.ee - kursuse info, ülesanded jms (ka kõik viited võiks siia jõuda)
+- discord chat: https://discord.gg/EckUYf6
 - õppematerjal: https://ained.ttu.ee/pydoc/
 - YouTube videod: https://www.youtube.com/c/TalTechCoding
 - Ülesandeid harjutamiseks: https://codera.cs.ttu.ee ja http://codingbat.com
 @ulend
+
+---
+## Onboarding
+
+- https://cs.ttu.ee/onboarding/python/
+- 326 tudengid on täitnud
+- 244 nendest jõudsid lõpuni
+- Kui Sa pole veel täitnud, palun tee seda!
+- Keskmine hinne protsessile 9.2
 
 ---
 
@@ -302,9 +314,11 @@
 
 @ul
 - See presentatioon
-- Mis on programmeerimine? (filosofeerime)
-- Töökeskkond, mõni näide
-- Kahoot!
+- Teeme algust Pythoni teemadega..
+  - Python
+  - print-input
+  - muutuja
+  - tingimuslause
 @ulend
 
 ---
