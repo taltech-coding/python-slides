@@ -62,7 +62,7 @@ https://git-scm.com/
 
 ## Faili lisamine serverisse
 
-@ul
+@ul[ul-90]
 - Failid projekti kaustas ei ole automaatselt Giti jälgimise all
 - `git add <file>` valmistab faili ette
 - Sedasi võib mitu faili lisada
@@ -95,7 +95,7 @@ https://git-scm.com/
 
 ## Serverist seisu tõmbamine
 
-@ul
+@ul[ul-80]
 - Kui arendad mitmes arvutis või projektiga töötab mitu inimest, võib tekkida seis, kus kohalikus arvutis pole kõiki viimaseid uuendusi.
 - Näiteks tegid kooliarvutis ühe ülesande ära ja lisasid serverisse; koduarvutis on aga vana seis (mis oli enne tundi).
 - Seega tuleb koduarvutis tõmmata uus seis alla serveris
@@ -116,6 +116,18 @@ https://git-scm.com/
 
 ---
 
+## Konflikt
+
+![Git conflict](git/git-conflict.png)
+
+---
+
+## Pull and push
+
+![Git conflict](git/git-pull-and-push.png)
+
+---
+
 ## Võimalikud konfliktid
 
 @ul
@@ -126,3 +138,5 @@ https://git-scm.com/
 @ulend
 
 ---
+
+![Git fire](git/git-fire.png)
