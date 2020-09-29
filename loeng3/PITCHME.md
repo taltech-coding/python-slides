@@ -5,14 +5,10 @@
 ---
 
 
-## Tagasiside
+## Diskussioon
 
 @ul
-- Iga nädal väike tagasiside ülesannete keerukuse ja kulunud aja kohta
-- Nädal 1: 373 vastajat
-- Nädal 2: 479 vastajat
-- Nädal 3: 378 vastajat
-- Täitmise eest saab 1p
+- Kas on raske?
 @ulend
 
 ---
@@ -20,44 +16,83 @@
 ## Tagasiside
 
 @ul
-- _1.5h kirjutasin programmi, 2.5h tegelesin stiiliga_
-- _Ülesanded on segased_
-- _Praktikumis võiks rohkem abistamist olla_
-- _Ülesanded pole materjalidega kooskõlas_
-- Tegelikult on ka positiivset tagasisidet :)
+- 1 nädal: 324 vastajat
+- 2 nädal: 294 vastajat
+- 3 nädal: 328 vastajat
 @ulend
 
 ---
 
-## Hinnangud
+### Tagasiside - probleemid (korraldus)
 
-![Hinnangud](loeng3/ex_stat.png)
-
----
-
-## Ajakulu
-
-@ul
-- 1\. nädal 4.3h
-- 2\. nädal 8.75h
-- 3\. nädal 14h
-- Mitmed vastavad 100h
-
-  - kui iga päev 10h progeda, tuleb kokku 70h
+@ul[ul-70]
+- Materjal võiks olla kirjas loengute kaupa, et oleks süsteemsem
+- Seletus, kuidas toimib kaitsmine (ajad, tähtajad, distantskaitsmine etc)
+- Informatsioon kursuse korralduse kohta kuskil paremini struktureeritud viisil
+- Ülesannete juures olevad juhised ja materjalid ei olnud piisavad
+- Selgitus mallide kasutamise kohta
+- Tugigrupp/grupid, kus tegeletakse ainult esimest korda progevate inimestega
+- Seletada rohkem, miks asju tehakse nii nagu tehakse, mitte ainult kuidas tehakse
+- Rohkem viiteid ülesannete juurde
+- Selgitus, mida tehakse praktikumis
 @ulend
 
 ---
 
-## Teiste aitamine
+### Tagasiside - probleemid (progemine)
+
+@ul[ul-80]
+- Täiendav juhend/info listide ja for loopide kasutamise osas
+- Jäägiga jagamise seletus
+- Täiendavad selgitused funktsiooni teemal
+- Selgitus tüüpide defineerimise kohta funktsioonides
+- Selgitus, kuidas alustada koodi kirjutamist
+- Kuidas kasutada docstringe, näited
+@ulend
+
+---
+
+## Tugigrupp abivajajatele
 
 @ul
-- On küsitud, et kas ja palju võib teisi aidata
-- Plagiaadihirm!
-- Kui te koodi ei jaga, siis üldiselt midagi ei juhtu.
+- Discordis eraldi tugigrupp neile, kes on maha jäänud või vajavad rohkem abi
+- Kirjutage Discordis mulle või mõnele õppejõule, kes saab teid sinna gruppi lisada
+@ulend
 
-  - muutuja ümbernimetamine vms ei peta ära
- 
-- Näpunäiteid võib ikka anda.
+---
+
+## Korraldus
+
+@ul
+- Ülesanded ei ole teadmiste kontroll
+- Need on antud selleks, et te saaksite küsida
+- Ülesanded on mahukad ja hõlmavad erinevaid komponente
+- Kohe, kui midagi tundub segast, siis küsi
+- Keelatud pole ka ise uurida
+- Eksam (kontrolltöö) on see koht, kus enam küsida ei saa
+@ulend
+
+---
+
+## Tähtajad
+
+@ul
+- Ülesanded 01-04 tähtajad jäävad 6. nädala lõpuni 50% peale.
+- Ettenäitamise tähtaeg peaks jääma 3 nädala sisse pärast ülesande esitamist
+- Võtame arvesse olukorda ja proovime võimalikult paindlikud olla
+@ulend
+
+---
+
+
+## Tunnikontroll
+
+@ul
+- Sel nädalal toimub tunnikontroll
+- Võite vaadata näidis tunnikontrolli kursuse lehel
+- 5 ülesannet
+- Vaja vähemalt 50% punktidest saada
+- Täiendusõppe arvestuse saamise eeldus
 @ulend
 
 ---
@@ -65,11 +100,16 @@
 ## Tunnikontroll
 
 @ul
-- Sel nädalal toimub tunnikontroll
-- Võite vaadata täiendusõppe t06 ülesandeid
-- 5 ülesannet
-- Vaja vähemalt 50% punktidest saada
-- Täiendusõppe arvestuse saamise eeldus 
+- Saab teha kodus
+- Võib teha mitu korda
+- Parim läheb arvesse
+- Toimumisajad:
+
+  - T 14:00 - 15:30
+  - N 09:40 - 11:10
+  - N 16:10 - 17:40
+  - L 14:00 - 15:30
+
 @ulend
 
 ---
@@ -79,53 +119,9 @@
 @ul
 - Täiendusõpe saab see nädal läbi
 - Leiame kõige sobivama(d) aja(d), et korraldada konsultatsioon
-- https://doodle.com/poll/e63emty6hqqmcs37
+- Moodle'is tuleb selle kohta küsitlus
 - Räägime algkursuse ülesannetest
 @ulend
-
----
-
-## Taanded
-
-![Taanded](loeng3/code_too_many_indents.png)
-
-
----
-
-## Mittevajalik kood
-
-![Kuud](loeng3/code_months.png)
-
----
-
-## Muutuja ülekirjutamine
-
-![Muutuja ülekirjutamine](loeng3/code_fixed_idcode.png)
-
----
-
-## Kaheksandarv
-
-![Kaheksandarv](loeng3/code_octal.png)
-
----
-
-## Koodikordus
-
-![Koodikordus](loeng3/code_repeat_result_string.png)
-
----
-
-## Teemad
-
-- Mis on progemine?
-- Muutuja, andmetüüp
-- Tingimuslause
-- Tsükkel
-- Järjend
-- Funktsioon
-- Vead programmi käivitamisel
-- Silumine (_debug_)
 
 ---
 
