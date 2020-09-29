@@ -19,6 +19,8 @@
 - 1 nädal: 324 vastajat
 - 2 nädal: 294 vastajat
 - 3 nädal: 328 vastajat
+- 4 nädal avatud
+- tagasiside annab 0.5p
 @ulend
 
 ---
