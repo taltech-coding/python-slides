@@ -72,6 +72,7 @@
 - Kohe, kui midagi tundub segast, siis küsi
 - Keelatud pole ka ise uurida
 - Eksam (kontrolltöö) on see koht, kus enam küsida ei saa
+- Discord
 @ulend
 
 ---
@@ -101,7 +102,7 @@
 
 ## Tunnikontroll
 
-@ul
+@ul[ul-90]
 - Saab teha kodus
 - Võib teha mitu korda
 - Parim läheb arvesse
@@ -111,7 +112,8 @@
   - N 09:40 - 11:10
   - N 16:10 - 17:40
   - L 14:00 - 15:30
-
+  - 17.10 kaugõppe tunnikas
+  
 @ulend
 
 ---
