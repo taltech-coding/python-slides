@@ -129,6 +129,15 @@
 
 ---
 
+## Progemisvõistlused
+
+- 24\. oktoober 03:00 - 25. oktoober 03:00 (24h)
+- 7\. novembril NCPC
+- Kuni 3-liikmeline võistkond
+- Regamiseks: moodle.taltech.ee -> Programmeerimisvõistlused -> rega tiim vastava võistluse juures
+
+---
+
 # Küsimused?
 
 ---
