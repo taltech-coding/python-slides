@@ -98,11 +98,13 @@ TypeError: '<' not supported between instances of 'str' and 'int'
 
 ## Erinditöötlus (_exception handling_)
 
+@ul[ul-80]
 - Tekkivad erindid saab kinni püüda (_catch_)
 - Selleks kasutatakse `try ... except` konstruktsiooni
 - Kui selles vahemikus tekib erind, on see võimalik kinni püüda
 - `try ... except` plokis jääb koodi täitmine pooleli sealt realt, kus viga tekib
 - Kinnipüüdmise korral on võimalik midagi ette võtta, et programmi töö saaks jätkuda
+@ulend
 
 ---
 
@@ -134,7 +136,7 @@ except:
 
 ## Erindi tüüp
 
-```python
+```python fragment zoom-07
 import math
 
 def calculate_square_root(value):
@@ -159,20 +161,24 @@ def calculate_square_root(value):
 
 ## Erindi tõstmine
 
+@ul
 - Programm võib vajadusel tõsta (_raise_) erindi
 - See tähendab, et programm ise tekitab "vea"
 - Üldiselt kasutatakse funktsioonides
 - Funktsiooni väljakutsuja saab ise otsustada, kuidas mingi vea puhul käituda
 - Näiteks ebakorrektse sisendi korral võib funktsioon tagastada -1
 - Samas funktsiooni väljakutsuja ei tea, mis viga täpselt tekkis
+@ulend
 
 ---
 
 ## Erindi tõstmine
 
+@ul
 - Erindit saab tõsta käsuga `raise`
 - Sellele järgneb erindi objekt, millel on üldiselt üks kohustuslik argument: teade (_message_)
 - Kui nüüd keegi kutsub välja funktsiooni, saab ta ise otsustada, kuidas käituda "vea" puhul
+@ulend
 
 ---
 
@@ -192,7 +198,7 @@ def enter_nightclub(age):
 
 ## Erindi tõstmine
 
-```python
+```python fragment zoom-07
 def enter_nightclub(age):
     if age < 18:
         raise ValueError("Too young")
@@ -224,9 +230,12 @@ class RobotInvalidInputException(Exception):
 ```
 
 ---
+@snap[north span-100]
 ## Erindi näide
+@snapend
 
-```python
+@snap[south-west span-50]
+```python fragment zoom-08
 class TooYoungToEnter(Exception):
     pass
     
@@ -234,10 +243,16 @@ class TooOldToEnter(Exception):
     pass
 
 def enter_nightclub(age):
-    if age < 18: raise TooYoungToEnter("Sorry, must be 18")
-    if age > 69: raise TooOldToEnter("May-be go to cafe?")
+    if age < 18: 
+        raise TooYoungToEnter("Sorry, must be 18")
+    if age > 69: 
+        raise TooOldToEnter("May-be go to cafe?")
     enter()
-    
+```
+@snapend
+
+@snap[south-east span-70]
+```python fragment zoom-08
 def main():
     # .. get age again
     user_age = 77
@@ -254,6 +269,7 @@ def main():
         # the function for which the try-catch was meant.
         party()
 ```
+@snapend
 
 ---
 

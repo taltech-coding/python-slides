@@ -304,7 +304,7 @@ class Shop:
     def __init__(self, name, age, products_file=None):
         self.products = []
         self.name = name
-        self.established = 2018 - age
+        self.established = 2020 - age
         if products_file is not None:
             # open the file and read products from it
             pass
@@ -668,7 +668,7 @@ print(p3d)     # (1.00, 2.00)
   - kõigepealt otsitakse meetodit/muutujat objekti klassist
   - kui objekti klassis seda ei leidu, otsitakse ülemklassist
   - kui ülemklassist ei leidu, siis ülemklassi ülemklassist jne
-- Seega, kui alamklassis sama nimega meetod kirjutda, "peidab" see ülemklassi meetodi ära
+- Seega, kui alamklassis sama nimega meetod kirjutada, "peidab" see ülemklassi meetodi ära
 @ulend
 
 ```python fragment
