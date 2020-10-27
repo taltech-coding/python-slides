@@ -1,5 +1,5 @@
 ## ITI0102 - Programmeerimise algkursus
-#### Loeng 4
+#### Loeng 5
 ##### Ago Luberg
 
 ---
