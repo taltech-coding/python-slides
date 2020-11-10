@@ -4,45 +4,40 @@
 
 ---
 
-## Tagasiside
-
-@ul[text-08]
-- Iga nädal väike tagasiside ülesannete keerukuse ja kulunud aja kohta
-- Nädal 1: 373 vastajat
-- Nädal 2: 479 vastajat
-- Nädal 3: 406 vastajat
-- Nädal 4: 363 vastajat
-- Nädal 5: 362 vastajat
-- Nädal 6: 335 vastajat
-- Nädal 7: 328 vastajat
-- Nädal 8: 316 vastajat
-- Nädal 9: 233 vastajat
-- Täitmise eest saab 1p
-@ulend
-
----
-
-## Ajakulu
-
-@ul[text-08]
-- 1\. nädal 4.3h
-- 2\. nädal 8.75h
-- 3\. nädal 14h
-- 4\. nädal 15h
-- 5\. nädal 12.3h
-- 6\. nädal 18h
-- 7\. nädal 19h
-- 8\. nädal 14h
-- 9\. nädal 15h
-@ulend
-
----
-
 ## Kontrolltöö
 
 @ul
-- Eelmise nädalaga 153 tudengit on kontrolltöö sooritanud (10 või rohkem punkti)
-- See nädal veel K14, R10 ja R12 võimalik sooritada.
-- Kaugõppel toimub kontrolltöö laupäeval
-- Mõned vabad kohad veel saadaval
+- Toimub 14. november (laupäev) kell 14:00.
+- Saab teha kodus
+- Korraldame ka järelKT paari nädala pärast
+- Lahendame läbi eelmiste KT-de ülesanded videosse
 @ulend
+
+---
+
+## Järeltunnikontroll
+
+@ul
+- Toimub 14. november (laupäev) kell 18:00
+- Saab teha kodus
+- Kui jääb veel keegi, kellele aeg ei sobi, saame ühe aja veel leida.
+@ulend
+
+---
+
+## Hetkeseis
+
+@ul
+- tunnikontroll on tehtud 401 tudengil
+- kontrolltöö on tehtud 298 tudengil
+- 1 plaaniline kontrolltöö alles tuleb
+- 40 tudengit on 200p täis saanud
+- 300 tudengit on 100p täis saanud
+@ulend
+
+---
+
+## Täna
+
+- Lahendame mõne KT ülesande
+- Ülikooli OOP-i jätk?
