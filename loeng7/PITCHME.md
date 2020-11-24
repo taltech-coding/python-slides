@@ -4,23 +4,11 @@
 
 ---
 
-## Tagasiside
-
-- Kontrolltööde raskusaste erinev
-
----
-
-## Kaitsmised
-
-Sellel nädalal tuleb ära kaitsta ülesanded kuni PR09/EX09 kaasa arvatud!
-
----
-
 
 ## Eksam
 
 @ul
-- Ajad on ÕIS-is väljas (3., 7., 15. jaanuar)
+- Ajad on ÕIS-is väljas (4., 9., 19. jaanuar)
 - Registreerimise tähtaeg eelmisel päeval kell 12
 - Kaasa isikut tõendav dokument
 - Annab kuni 600 punkti
@@ -44,30 +32,12 @@ Sellel nädalal tuleb ära kaitsta ülesanded kuni PR09/EX09 kaasa arvatud!
 
 @ul
 - 10 x 10p = 100p valikvastustega küsimused
-- 6 x 50p = 300 p väiksemad algoritmilised ülesanded
+- 5 x 50p = 250 p väiksemad algoritmilised ülesanded
   - sarnased TK ja KT ülesannetele
   - üks neist on rekursiooni ülesanne
 - 1 x 100p = 100p mahukam algoritmiline ülesanne
-- 2 x 50p = 100p OOP ülesanded
+- 50p + 100p = 150p OOP ülesanded
 @ulend
-
----
-
-## Konsultatsioon enne eksamit
-
-@ul
-- Saab kaitsta XP ülesandeid
-- Saab kaitsta viimaste nädalate ülesandeid (14, 15)
-@ulend
-
----
-
-## Ülesannete näidised
-
-- PR14 on eelmise aasta eksamiülesanded.
-- 10 ülesannet on 50p-sed eksamiülesanded
-- Kokku 10 ülesande eest 5p
-- Lisaks on täiendavad ülesanded harjutamiseks (punkte lisaks ei saa)
 
 ---
 
