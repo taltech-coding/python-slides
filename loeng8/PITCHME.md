@@ -51,7 +51,7 @@
 
 ## XP ülesanded
 
-@ul
+@ul[text-09]
 - XP01 - disk mat, aga keeruline
 - XP02 - pigem lihtne, aga kinda tüütu
 - XP03 - saab toredaid asju joonistada
