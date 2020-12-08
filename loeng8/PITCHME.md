@@ -51,7 +51,7 @@
 
 ## XP ülesanded
 
-@ul[text-09]
+@ul[text-08]
 - XP01 - disk mat, aga keeruline
 - XP02 - pigem lihtne, aga kinda tüütu
 - XP03 - saab toredaid asju joonistada
@@ -156,13 +156,14 @@
 
 ## Vestlused Toomasega
 
-@ul
+@ul[text-08]
 - Soovime leida vabatahtlikud, kes on nõus meile andma tagasisidet, kuidas kursus (või programmeerimine üldisemalt) neile on mõjunud
 - Soovime tudengeid:
  
   - kes on olnud hädas, aga on nüüd jõudnud järele (on ära käinud mingi "klõps")
   - kes on senimaani hädas (pole veel "klõpsu" käinud)
 - me ei hinda teie edusamme, pigem püüame aru saada, mida me saaks paremini teha
+- andke mulle homseks teada
 @ulend
 
 ---
