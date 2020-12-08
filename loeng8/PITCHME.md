@@ -7,10 +7,10 @@
 ## Statistika
 
 @ul
-- 514 deklaratsiooni
-- 418 tudengit (81%) on sooritanud tunnikontrolli
-- 367 tudengit (71%) on sooritanud kontrolltöö
-- 190 tudengit (37%) on saanud eksamieelduse
+- 493 deklaratsiooni
+- 416 tudengit (84%) on sooritanud tunnikontrolli
+- 280 tudengit (57%) on sooritanud kontrolltöö
+- 166 tudengit (34%) on saanud eksamieelduse
 @ulend
 
 ---
@@ -28,15 +28,12 @@
 ## Võimalikud punktid
 
 @ul
-- PR12/EX12 - 50%
-- PR13/EX13 - 50%
-- PR14 - 80%, alates 15.12 50%
-- EX14 
-  - alates 17.12 90%
-  - alates 31.12 50%
-- PR15 alates 1.1 50%
+- EX07, E08, EX11 - jäävad 50%
+- EX12 - jääb 100%
+- PR13/EX13 jääb 100%
+- PR14/EX14 jääb 100%
 - EX15 jääb 100%
-- **Kokku 40-60p**
+- **Kokku ligi 100p**
 @ulend
 
 ---
@@ -47,6 +44,7 @@
 - AOC 5p
 - tagasiside 15p
 - XP ülesanded kuni 100p
+- HackerRank ülesanded
 @ulend
 
 ---
@@ -54,9 +52,15 @@
 ## XP ülesanded
 
 @ul
-- heatmap (API, json, joonistamine)
-- django (juhendi järgi veebirakenduse tegemine)
-- Blackjack strateegia
+- XP01 - disk mat, aga keeruline
+- XP02 - pigem lihtne, aga kinda tüütu
+- XP03 - saab toredaid asju joonistada
+- XP04 - disk mat, but with real world applications
+- XP05 - masinõpe
+- XP06 - pole kõige keerulisem
+- XP07 - mingid punktid saab võrdlemisi kergelt, lahendused võistlevad oma vahel for extra points
+- XP08 - rekursioon ja generaator. mõnes mõttes mitte väga oluline teema eksamiks. samas kes on teinud, on hinnanud huvitavaks ülesandeks
+- DJ01 - Django tutoriali järgi veebirakenduse tegemine
 @ulend
 
 ---
@@ -64,27 +68,28 @@
 ## Võimalikud punktid
 
 @ul
-- PR/EX ülesanded 40-60p
+- PR/EX ülesanded 100p
 - AOC/tagasiside 20p
-- XP lihtsamad - 20-30p
-- Kokku: 100+ punkti
+- XP lihtsamad - 20-30p (kokku 100p)
+- Kokku: 100-200 punkti
 @ulend
 
 ---
 
 ## Järelkontrolltöö
 
-- https://doodle.com/poll/kdpz3brrqgw5xf55
-- Valime aja, kus kõige rohkem inimesi saab kohale tulla.
+- laupäeval (12.12) kell 14:00
+- online
 
 ---
 
 ## Eksam
 
 @ul
-- Ajad on ÕIS-is väljas (3., 7., 15. jaanuar)
-- Registreerimise tähtaeg eelmisel päeval kell 12
+- Ajad on ÕIS-is väljas (4., 9., 19. jaanuar)
+- Registreerimise tähtaeg **eelmisel** päeval kell 12
 - Kaasa isikut tõendav dokument
+- Eksami ajal maski kandmine kohustuslik
 - Annab kuni 600 punkti
 @ulend
 
@@ -106,31 +111,32 @@
 
 @ul
 - 10 x 10p = 100p valikvastustega küsimused
-- 6 x 50p = 300 p väiksemad algoritmilised ülesanded
+- 4 x 50p = 200 p väiksemad algoritmilised ülesanded
   - sarnased TK ja KT ülesannetele
   - üks neist on rekursiooni ülesanne
 - 1 x 100p = 100p mahukam algoritmiline ülesanne
-- 2 x 50p = 100p OOP ülesanded
+- 50p lihtsam OOP ülesanne (nagu KT)
+- 150p keerukam OOP ülesanne (nagu KT)
 @ulend
 
 ---
 
-## Konsultatsioonid enne eksamit
+## Ettenäitamine / konsultatsioon
 
 @ul
-- Päev enne eksamit kell 10
-- Saab ülesandeid kaitsta (teeme doodle'i)
-- Saab abi küsida mõne teema kohta
+- korraldame ettenäitamisi detsembri lõpus
+- korraldame ettenäitamisi jaanuaris
+- huvi korral teeme online konsultatsiooni
 @ulend
 
 ---
 
-## Ülesannete näidised
+## Näidiseksam
 
-- PR14 on eelmise aasta eksamiülesanded.
-- 10 ülesannet on 50p-sed eksamiülesanded
-- Kokku 10 ülesande eest 5p
-- Lisaks on täiendavad ülesanded harjutamiseks (punkte lisaks ei saa)
+@ul
+- paneme välja 16. nädalal
+- üldiselt koosneb juba esinenud ülesannetest (TK/KT)
+@ulend
 
 ---
 
@@ -145,3 +151,20 @@
 - Kuni 5 punkti (iga päev annab ühe punkti)
 - Aga kui huvi, soovitan proovida kõik ära lahendada
 @ulend
+
+---
+
+## Vestlused Toomasega
+
+@ul
+- Soovime leida vabatahtlikud, kes on nõus meile andma tagasisidet, kuidas kursus (või programmeerimine üldisemalt) neile on mõjunud
+- Soovime tudengeid:
+ 
+  - kes on olnud hädas, aga on nüüd jõudnud järele (on ära käinud mingi "klõps")
+  - kes on senimaani hädas (pole veel "klõpsu" käinud)
+- me ei hinda teie edusamme, pigem püüame aru saada, mida me saaks paremini teha
+@ulend
+
+---
+
+## kahoot?
